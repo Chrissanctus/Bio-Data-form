@@ -1,0 +1,46 @@
+body{
+    background-color: #F6F7FC;
+    margin: 10px;
+    font-family:'Oxygen', sans-serif;
+}
+form{
+    margin: 5px 33% 5px;
+    
+}
+legend{
+    box-shadow: 1px 1px 6px #888888;
+}
+.details{
+    border: solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 1px 1px 6px #888888;
+    margin: 5px 25px 10px ;
+    font-size: 18px;
+    outline: none;
+
+}
+label, form p, .submit{
+    margin: 5px 25px 10px ;
+   
+}
+select{
+    width: 80%;
+}
+.submit{
+    color: #ffffff;
+    background-color: #EB8039;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    box-shadow: 1px 1px 6px #888888;
+    font-size: 18px;
+}
+.submit:hover{
+    background-color: #ffffff;
+    color: #EB8039;
+}
+.details:focus{
+    border-color:#EB8039;
+}
